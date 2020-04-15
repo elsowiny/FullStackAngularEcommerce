@@ -4,9 +4,9 @@ Full Stack angular project using spring boot for backend.
 
 Springboot is run on localhost:8080
 
-In order to run the entire project, start with the 01-start-files and run your database scripts.
+In order to run the entire project, start with the `01-start-files` and run your database scripts.
 Next, run the Springboot server to connect to the database. (More information located in the readme.md located in 02..directory)
-Finally, Run the Angular project with ng serve".. This will run the application on localhost:4200
+Finally, Run the Angular project with `ng serve` .. This will run the application on localhost:4200
 There is cross origin support where Springboot is ran on localhost:8080. Angular will read the api data from the springboot server
 and convert it into usable data for displaying on front end.
 
@@ -39,7 +39,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-## NOTES---
+## --NOTES--
+`
 v1. 4/14/2020
 	- Added html table for displaying the data.
 v2. 4/15/2020
@@ -48,7 +49,7 @@ v2. 4/15/2020
 	- Added images to directory in project.
 	- Added new SQL DB SCRIPT for adding 100 new products. (Removes the old DB).
 	-
-
+`
 ## OLD FILES
 	- 02-create-products   (located in --> 01-starterfiles DIRECTORY)
 	- product-list-table.component.html/product-list.component.html (located in --> 03-frontend/angular/src/app/components/productlist)
