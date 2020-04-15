@@ -40,7 +40,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## --NOTES--
-`
+```
 v1. 4/14/2020
 	- Added html table for displaying the data.
 v2. 4/15/2020
@@ -48,8 +48,8 @@ v2. 4/15/2020
 	- Integrated new CSS template style for shop display.
 	- Added images to directory in project.
 	- Added new SQL DB SCRIPT for adding 100 new products. (Removes the old DB).
-	-
-`
+	
+```
 ## OLD FILES
 	- 02-create-products   (located in --> 01-starterfiles DIRECTORY)
 	- product-list-table.component.html/product-list.component.html (located in --> 03-frontend/angular/src/app/components/productlist)
