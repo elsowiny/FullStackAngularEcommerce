@@ -4,12 +4,13 @@ Full Stack angular project using spring boot for backend.
 
 Springboot is run on localhost:8080
 
+```
 In order to run the entire project, start with the `01-start-files` and run your database scripts.
 Next, run the Springboot server to connect to the database. (More information located in the readme.md located in 02..directory)
 Finally, Run the Angular project with `ng serve` .. This will run the application on localhost:4200
 There is cross origin support where Springboot is ran on localhost:8080. Angular will read the api data from the springboot server
 and convert it into usable data for displaying on front end.
-
+```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
@@ -39,7 +40,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-## --NOTES--
+# --NOTES--
 ```
 v1. 4/14/2020
 	- Added html table for displaying the data.
