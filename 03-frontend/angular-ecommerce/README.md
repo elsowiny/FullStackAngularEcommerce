@@ -31,4 +31,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## NOTES
-- product-list-table.component.html/product-list.component.html  is not utilized.. It may be utilized if you want to display the data in a minimal fashion.
+
+MUST HAVE SPRING BOOT APPLICATION RUNNING!
+If not, the products and product categories will fail to read in the data from the REST API and display them!!

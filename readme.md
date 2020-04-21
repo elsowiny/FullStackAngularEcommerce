@@ -48,9 +48,14 @@ v2. 4/15/2020
 	- Integrated new CSS template style for shop display.
 	- Added images to directory in project.
 	- Added new SQL DB SCRIPT for adding 100 new products. (Removes the old DB).
+v3. 4/21/2020
+	-Integrated searching for products by category via menu-component(utilizing Angular Routing)
+	-Only shop is updated via Angular Routing, not entire page.
+	-Modified Spring Boot app to expose entity ids. (Allows for Angular to call on each product cateogry and display them)
+	-Removed hard-coded menu links to use menu-component. (Uses productCategory service to read in the categories from Spring REST API)
 	
 ```
 ## OLD FILES
 	- 02-create-products   (located in --> 01-starterfiles DIRECTORY)
-	- product-list-table.component.html/product-list.component.html (located in --> 03-frontend/angular/src/app/components/productlist)
+	
 	
