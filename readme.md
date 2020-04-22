@@ -54,6 +54,11 @@ v3. 4/21/2020
 	-Only shop is updated via Angular Routing, not entire page.
 	-Modified Spring Boot app to expose entity ids. (Allows for Angular to call on each product cateogry and display them)
 	-Removed hard-coded menu links to use menu-component. (Uses productCategory service to read in the categories from Spring REST API)
+
+v4. 4/21/2020
+	-Added new Angular routing for search.
+	-Updated Spring API to return products on a name search.
+	-Added new component for searching by name.
 	
 ```
 ## OLD FILES
