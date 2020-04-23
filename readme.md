@@ -42,23 +42,25 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # --NOTES--
 ```
-v1. 4/14/2020
-	- Added html table for displaying the data.
-v2. 4/15/2020
-	- Installed local bootstrap and css files to Angular project.
-	- Integrated new CSS template style for shop display.
-	- Added images to directory in project.
-	- Added new SQL DB SCRIPT for adding 100 new products. (Removes the old DB).
-v3. 4/21/2020
-	-Integrated searching for products by category via menu-component(utilizing Angular Routing)
-	-Only shop is updated via Angular Routing, not entire page.
-	-Modified Spring Boot app to expose entity ids. (Allows for Angular to call on each product cateogry and display them)
-	-Removed hard-coded menu links to use menu-component. (Uses productCategory service to read in the categories from Spring REST API)
+v1. 	4/14/2020
+		- Added html table for displaying the data.
+v2.1 	4/15/2020
+		- Installed local bootstrap and css files to Angular project.
+		- Integrated new CSS template style for shop display.
+		- Added images to directory in project.
+		- Added new SQL DB SCRIPT for adding 100 new products. (Removes the old DB).
+v2.2  	4/21/2020
+		-Integrated searching for products by category via menu-component(utilizing Angular Routing)
+		-Only shop is updated via Angular Routing, not entire page.
+		-Modified Spring Boot app to expose entity ids. (Allows for Angular to call on each product cateogry and display them)
+		-Removed hard-coded menu links to use menu-component. (Uses productCategory service to read in the categories from Spring REST API)
 
-v4. 4/21/2020
-	-Added new Angular routing for search.
-	-Updated Spring API to return products on a name search.
-	-Added new component for searching by name.
+v2.3	 4/21/2020
+		-Added new Angular routing for search.
+		-Updated Spring API to return products on a name search.
+		-Added new component for searching by name.
+v2.4     4/22/220
+		-Added master detail view. (Allows for displaying of detail of each product a user clicks on)
 	
 ```
 ## OLD FILES
