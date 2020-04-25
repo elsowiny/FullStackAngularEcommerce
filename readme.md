@@ -61,6 +61,10 @@ v2.3	 4/21/2020
 		-Added new component for searching by name.
 v2.4     4/22/220
 		-Added master detail view. (Allows for displaying of detail of each product a user clicks on)
+
+v2.5     4/25/2020
+		-Added pagination support using Spring Rest JSON and angular pagination (ng-bootstrap)
+		-Added drop down list for allowing number of products per page for viewing to be user selected.
 	
 ```
 ## OLD FILES
