@@ -65,6 +65,7 @@ v2.4     4/22/220
 v2.5     4/25/2020
 		-Added pagination support using Spring Rest JSON and angular pagination (ng-bootstrap)
 		-Added drop down list for allowing number of products per page for viewing to be user selected.
+		-Added pagination for search results
 	
 ```
 ## OLD FILES
