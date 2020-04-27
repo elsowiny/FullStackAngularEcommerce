@@ -73,6 +73,11 @@ v2.6     4/26/2020
 		-Created cart details page -- allowing for add or removing items.
 		-Added checkout button and checkout form.
 		-Updated add to cart feature on the master detail view.
+
+v3(FINAL)      4/27/2020
+		-Added cart details page and empty cart details page.
+		-Added increment and decrement buttons for cart details page.
+		-Added remove item.
 ```
 ## OLD FILES
 	- 02-create-products   (located in --> 01-starterfiles DIRECTORY)
