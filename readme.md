@@ -67,6 +67,12 @@ v2.5     4/25/2020
 		-Added drop down list for allowing number of products per page for viewing to be user selected.
 		-Added pagination for search results
 	
+v2.6     4/26/2020
+		-Integerated shopping cart (Allows for putting items in the shopping cart)
+		-Added add to cart function when clicking on the add to cart button
+		-Created cart details page -- allowing for add or removing items.
+		-Added checkout button and checkout form.
+		-Updated add to cart feature on the master detail view.
 ```
 ## OLD FILES
 	- 02-create-products   (located in --> 01-starterfiles DIRECTORY)
